@@ -1,5 +1,5 @@
 Name: nethserver-rh-php56-php-fpm
-Version: 0.0.1
+Version: 1.0.0
 Release: 1%{?dist}
 Summary: NethServer rh-php56-php-fpm configuration
 License: GPL
@@ -32,3 +32,7 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Apr 04 2017 Davide Principi <davide.principi@nethesis.it> - 1.0.0-1
+- First release
+- Nextcloud 11 - NethServer/dev#5242
+
